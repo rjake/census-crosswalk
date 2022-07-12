@@ -4,3 +4,4 @@
 .Ruserdata
 *.zip
 files/input/
+files/output/lookup_census_block_crosswalk_2020.csv
