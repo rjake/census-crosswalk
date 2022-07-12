@@ -204,6 +204,9 @@ final_table <-
 
 write_csv(final_table, "files/output/lookup_census_block_crosswalk_2020.csv")
 
+final_table |>
+  filter(str_detect(state,  "RI")) |>
+  write_csv("files/output/lookup_census_block_crosswalk_2020-sample.csv")
 
 # local_blocks <-
 #   blocks |>
